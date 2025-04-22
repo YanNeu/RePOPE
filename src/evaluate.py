@@ -58,7 +58,6 @@ if __name__ == '__main__':
     responses = {}
     
     for subset in pope_data:
-        print(subset, len(pope_data[subset])) 
         responses[subset] = vlm_evaluator.evaluate_dataset(pope_data[subset], batchsize=args.bs)
     
     answers_pope = save_answers(pope_data, responses, 'POPE', output_dir, vlm_evaluator.vlm_name)
