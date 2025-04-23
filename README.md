@@ -4,7 +4,7 @@
 
 **Tübingen AI Center - University of Tübingen**
 
-**[RePOPE Annotation Files](#annotations)** | **[Requirements](#setup)** | **[arXiv](https://arxiv.org/abs/2503.23573)** | **[Citation](#citation)**
+**[RePOPE Annotation Files](#annotations)** | **[Requirements](#setup)** | **[arXiv](https://arxiv.org/abs/2504.15707)** | **[Citation](#citation)**
 
 ## RePOPE
 We introduce RePOPE, a relabeling of the commonly used object hallucination benchmark COCO POPE. We correct wrong annotations and remove ambiguous ones. The imbalance between incorrect "Yes" and incorrect "No" labels (9.3% vs 1.7%) has a significant effect on the F1 scores.
