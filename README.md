@@ -6,6 +6,7 @@
 
 **[RePOPE Annotation Files](#annotations)** | **[Requirements](#setup)** | **[arXiv](https://arxiv.org/abs/2504.15707)** | **[Citation](#citation)**
 
+This repository contains a relabeling of the POPE. We also created [DASH-B](https://github.com/YanNeu/DASH-B) a harder and less saturated object hallucination benchmark for VLMs.
 ## RePOPE
 We introduce RePOPE, a relabeling of the commonly used object hallucination benchmark COCO POPE. We correct wrong annotations and remove ambiguous ones. The imbalance between incorrect "Yes" and incorrect "No" labels (9.3% vs 1.7%) has a significant effect on the F1 scores.
 
