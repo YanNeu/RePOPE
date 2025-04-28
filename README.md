@@ -45,3 +45,15 @@ Install the conda environment as follows to reproduce the results using our code
 You can run the following command to evaluate a model on POPE and RePOPE. Supported models can be found [here](./assets/available_models.md).
    
     CUDA_VISIBLE_DEVICES=<GPU index> python src/evaluate.py --vlm_name <VLM name> --bs <batchsize> &
+
+
+<a id="citation"></a>
+## Citation
+
+    @article{neuhaus2025repope,
+        title={RePOPE: Impact of Annotation Errors on the POPE Benchmark},
+        author={Neuhaus, Yannic and Hein, Matthias},
+        journal={arXiv preprint arXiv:2504.15707},
+        year={2025}
+    }
+
