@@ -11,16 +11,14 @@ This repository contains a relabeling of the POPE. We also created [DASH-B](http
 We introduce RePOPE, a relabeling of the commonly used object hallucination benchmark COCO POPE. We correct wrong annotations and remove ambiguous ones. The imbalance between incorrect "Yes" and incorrect "No" labels (9.3% vs 1.7%) has a significant effect on the F1 scores.
 
 <p align="center">
-  <img width="600" src="./assets/repope_table.png", alt="Relabeling results">
+  <img width="600" src="./assets/pope_vs_repope.png", alt="Relabeling results">
 </p>
 
 ## (Re-)Annotation Examples
-The query for POPE is always 'Is there a <object name> in the image?'. We show examples for two kinds of annotation errors: I) the POPE ground truth answer is "Yes" although the object is not present, II) the POPE ground truth answer is "No" although the object is visible. We also show some examples where the COCO labels are ambiguous, e.g. in some cases a teddy is annotated as a 'bear', in other cases it is not.
 
 <p align="center">
-  <img width="600" src="./assets/repope_label_examples_large.png", alt="Annotation error examples">
+  <img width="600" src="./assets/annotation_examples.png", alt="Annotation error examples">
 </p>
-
 
 
 <a id="annotations"></a>
