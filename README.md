@@ -11,13 +11,13 @@ This repository contains a relabeling of the POPE. We also created [DASH-B](http
 We introduce RePOPE, a relabeling of the commonly used object hallucination benchmark COCO POPE. We correct wrong annotations and remove ambiguous ones. The imbalance between incorrect "Yes" and incorrect "No" labels (9.3% vs 1.7%) has a significant effect on the F1 scores.
 
 <p align="center">
-  <img width="600" src="./assets/pope_vs_repope.png", alt="Relabeling results">
+  <img width="1000" src="./assets/pope_vs_repope.png", alt="Relabeling results">
 </p>
 
 ## (Re-)Annotation Examples
 
 <p align="center">
-  <img width="600" src="./assets/annotation_examples.png", alt="Annotation error examples">
+  <img width="1000" src="./assets/annotation_examples.png", alt="Annotation error examples">
 </p>
 
 
