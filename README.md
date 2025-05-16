@@ -34,7 +34,7 @@ We provide the corrected annotation files in the same format as the original POP
 Install the conda environment as follows to reproduce the results using our code:
 
     conda create --name repope python=3.12
-    conda activate dash
+    conda activate repope
     conda install nvidia/label/cuda-12.1.0::cuda-nvcc
     pip install -r requirements_pip.txt
     pip install flash-attn
